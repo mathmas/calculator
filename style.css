@@ -22,6 +22,7 @@
 }
 
 #screen{
+    text-align: end;
     height: 10vh;
     font-size: 7vh;
 }
