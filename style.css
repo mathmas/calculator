@@ -1,0 +1,47 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid red;
+    padding: 16px;
+}
+
+#calculator > div {
+    border: 2px solid pink;
+    padding: 8px;
+}
+
+#screen{
+    height: 10vh;
+    font-size: 7vh;
+}
+
+#buttons{
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.line{
+    border: 2px solid orange;
+    flex-grow: 1;
+
+    display: flex;
+    gap: 8px;
+}
+
+button{
+    flex: 1;
+}
